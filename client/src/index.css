@@ -1,0 +1,359 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.content{
+  height:100vh;
+}
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  
+}
+/* Transaction page...*/
+
+.filters{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding:15px 20px;
+box-shadow: 0 0 3px gray;
+}
+.loginuser_logout_btn {
+  margin-left: 40vh;
+  display: inline-flex;
+}
+#navbarSupportedContent {
+  text-align: center;
+  margin-left: 361px;
+  padding-top: 10px;
+}
+
+ /*----------------Details Two page----*/
+ .header_1 {
+  min-height: 7px;
+  font-size: small;
+  border-bottom: 1px solid #f8f9fa17;
+  text-align: center;
+  margin-bottom: 56px;
+  color: #a7a931;
+  font-family: monospace;
+}
+
+/*----------------Details Three page----*/
+.header_2 {
+  min-height: 7px;
+  font-size: small;
+  border-bottom: 1px solid #f8f9fa17;
+  text-align: center;
+  margin-bottom: 56px;
+  color: #14eaf1;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* DetailsThree,details two,details font family .css */
+
+.dropdown-container {
+  margin-bottom: 10px;
+  margin-top: 1rem;
+}
+
+.dropdown-container select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.dropdown-container select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/*----------------------Home .js -------------------------*/
+
+.formatter,.formatter_1{
+  min-height: 400px;
+  width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  display:inline-block;
+  margin-left: 44px;
+  text-align: center;
+   -webkit-box-shadow: -1px 0px 6px 1px rgba(0,0,0,0.4);
+  -moz-box-shadow: -1px 0px 6px 1px rgba(0,0,0,0.4);
+  box-shadow: -1px 0px 6px 1px rgba(0,0,0,0.4);;
+  
+}
+.formatter:hover,
+.formatter_1:hover,
+.formatter_2:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Change the box shadow on hover */
+}
+.formatter_2{
+  min-height: 400px;
+  width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  display:inline-block;
+  margin-left: 44px;
+  text-align: center;
+  -webkit-box-shadow: -1px 0px 6px 1px rgba(0,0,0,0.4);
+-moz-box-shadow: -1px 0px 6px 1px rgba(0,0,0,0.4);
+box-shadow: -1px 0px 6px 1px rgba(0,0,0,0.4);
+}
+.formatter{
+  background: url('images/f1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formatter_1{
+  background: url('images/f2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formatter_2{
+  background: url('images/f3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formatter .mb-3{
+  margin-top: 50px;
+ 
+  margin-bottom: -49rem!important;
+
+}
+.formatter_1 .mb-3{
+  margin-top: 50px;
+ 
+  margin-bottom: -49rem!important;
+
+}
+.formatter_2 .mb-3{
+  margin-top: 50px;
+ 
+  margin-bottom: -49rem!important;
+
+}
+
+/*------------------customize.css----------------------------------*/
+.container_1 {
+  max-width: 1023px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.876); /* Ensure white background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 2px solid #333;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  background-color: #fff; /* Ensure white background */
+}
+
+.header h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.header p {
+  margin: 0.2rem 0;
+  color: #666;
+}
+
+.experience, .education, .skills, .occupation {
+  margin-bottom: 2rem;
+  background-color: #fff; /* Ensure white background */
+}
+
+.experience h3, .education h3, .skills h3, .occupation h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #444;
+  border-bottom: 2px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+.experience div, .education div, .occupation div {
+  background-color: #f9f9f9; /* Adjust if needed */
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.experience div h4, .education div h4, .occupation div h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.experience div p, .education div p, .occupation div p {
+  margin: 0.5rem 0 0;
+  color: #666;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.skills li:hover {
+  background-color: #45a049;
+}
+.input-field {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: transparent;
+  width: 100%;
+}
+
+textarea.input-field {
+  resize: none;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.header h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.header p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.experience {
+  margin-bottom: 20px;
+}
+
+.experience h3 {
+  margin-bottom: 10px;
+}
+
+.experience div {
+  margin-bottom: 15px;
+}
+
+.experience h4 {
+  margin-bottom: 5px;
+}
+
+.experience .input-field {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.experience textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.experience {
+  margin-bottom: 20px;
+}
+
+.experience h3 {
+  margin-bottom: 10px;
+}
+
+.experience div {
+  margin-bottom: 15px;
+}
+
+.experience h4 {
+  margin-bottom: 5px;
+}
+
+.experience .input-field {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.experience textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.experience .input-field:focus, .experience textarea:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+
+
+
